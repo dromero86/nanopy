@@ -5,6 +5,6 @@ if( ( 'nano' in globals() ) == False ):  sys.exit("No direct script access allow
 
 class data(Model):
     def test_mysql(self):
-        for row in self.db.query("SELECT id,nombre FROM hal_usuarios") :
+        for row in self.db.query("SELECT id,name FROM mytable") :
 			#echo a test
-			print row.id, row.nombre
+			print row.id, row.name
