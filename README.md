@@ -17,3 +17,9 @@ Fast and scalable Development
 - handling paths as Java
 - Unicode handling
 - Multipurpose: web, desktop, service
+
+# The idea
+The idea is that you can run visual applications with some conventions as MVC, KISS or DRY and in turn you can implement calls to other windows like web (offline using sessions) and also you can deploy web applications without losing the richness of working with frameworks.
+
+In turn, if you want intergrar a graphical window system as GTK, QT, WX, TK, etc, or if you want to program for android using SL4A also you can create scalable applications.
+
